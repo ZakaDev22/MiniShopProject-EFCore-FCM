@@ -3,6 +3,7 @@
     public class Order
     {
 
+        public Order() { }
         public Order(int v1, decimal v2, int v3)
         {
             this.OrderId = v1;

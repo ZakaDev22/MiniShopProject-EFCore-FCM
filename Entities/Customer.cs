@@ -3,10 +3,11 @@
     public class Customer
     {
 
-        public Customer(int v1, string v2)
+        public Customer() { }
+        public Customer(int id, string name)
         {
-            this.Id = v1;
-            this.Name = v2;
+            this.Id = id;
+            this.Name = name;
         }
 
         public int Id { get; set; }
